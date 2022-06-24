@@ -1,0 +1,19 @@
+{
+  "name": "SteamSummerEvent",
+  "description": "머요",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://store.steampowered.com/*"], 
+      "js": ["jquery-3.6.0.js", "script_main/content-script.js"],
+      "css": ["css_main/style-injector.css"]
+    }
+  ],
+  "icons": {
+    "16": "/images/16.png",
+    "32": "/images/32.png",
+    "48": "/images/48.png",
+    "128": "/images/128.png"
+  }
+}

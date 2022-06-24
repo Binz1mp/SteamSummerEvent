@@ -1,0 +1,21 @@
+#steamsummerbutton {
+  position: fixed;
+  display: block;
+  right: 1%;
+  top: 50%;
+  z-index: 999999999;
+  font-weight: bold;
+  font-size: 25px;
+  color: #161822;
+  outline: solid 2px #161822;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+#steamsummerbutton:hover {
+  outline: solid 4px #161822;
+}
+#steamsummerbutton:active {
+  background-color: #a2a5b4;
+}
